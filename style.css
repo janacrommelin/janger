@@ -1,0 +1,138 @@
+/* this is a css style sheet, the syntax for a comment in CSS is different because it's a separate language to HTML */
+/* below I am calling all the different HTML elements that I have used in the page and describing how it should be rendered on screen within the {curly brackets}. */
+body {
+    background: black;
+    color: azure;
+}
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin:0%;
+  padding:0%;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color:blue;
+  margin:0%;
+  padding:0%;
+  font-size: 80px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 60px;
+  color: yellow;
+  margin:0%;
+  padding:0%;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: blue;
+  margin:0%;
+  padding:0%;
+  font-size: 40px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: greenyellow;
+  margin:0%;
+  padding:0%;
+  font-size: 20px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: blue;
+  margin:0%;
+  padding:0%;
+  font-size: 100px;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin:0%;
+  padding:0%;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  color:red;
+  margin:0%;
+  padding:0%;
+  font-size: 80px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 60px;
+  color: yellow;
+  margin:0%;
+  padding:0%;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: magenta;
+  margin:0%;
+  padding:0%;
+  font-size: 40px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: greenyellow;
+  margin:0%;
+  padding:0%;
+  font-size: 40px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  margin:0%;
+  padding:0%;
+  font-size: 100px;
+}
+
